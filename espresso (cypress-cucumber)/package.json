@@ -6,6 +6,7 @@
   "scripts": {
     "test-ui": "cypress open --browser firefox",
     "test": "cypress run --browser firefox",
+    "start": "node index.js",
     "make-steps": "node _auto-generate-step-definitions.js"
   },
   "cypress-cucumber-preprocessor": {
